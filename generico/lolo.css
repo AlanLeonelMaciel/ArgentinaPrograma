@@ -1,0 +1,34 @@
+.navbar-nav .nav-link    {
+    color: blueviolet; /* Puedes cambiar "red" por el color que desees */
+  }
+  .dropdown-menu .dropdown-item {
+    color: blueviolet;
+  }
+
+  /* Aumentar la especificidad para asegurarse de que la regla se aplique */
+.navbar-nav .nav-link.active.custom-home-link {
+    color: blueviolet; /* Cambia "blue" por el color que desees */
+  }
+  .navbar .navbar-brand{
+    color: blueviolet;
+  }
+
+  #hola {
+    color: aliceblue;
+    display: flex;
+
+    justify-content:space-evenly;
+
+    width: 100%;
+  }
+  /* Centrar contenido en la barra de navegación */
+  /* Centrar el div que contiene el párrafo #hola */
+  
+  
+  #parrafo{
+    margin: 0px;
+  }
+  #parrafo2{
+    margin: 0px;
+  }
+  
